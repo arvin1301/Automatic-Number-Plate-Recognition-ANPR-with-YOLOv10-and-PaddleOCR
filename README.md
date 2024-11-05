@@ -1,0 +1,1 @@
+# Automatic-Number-Plate-Recognition-ANPR-with-YOLOv10-and-PaddleOCR
