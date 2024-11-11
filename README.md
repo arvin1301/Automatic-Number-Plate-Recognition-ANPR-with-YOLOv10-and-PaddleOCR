@@ -1,4 +1,4 @@
- Automatic-Number-Plate-Recognition-ANPR-with-YOLOv10-and-PaddleOCR
+ # Automatic-Number-Plate-Recognition-ANPR-with-YOLOv10-and-PaddleOCR
 
 
 
@@ -7,7 +7,7 @@ This project implements an Automatic Number Plate Recognition (ANPR) system usin
 
 
 
-Features
+# Features
 -Real-time License Plate Detection: Use a webcam to detect and recognize license plates in real-time.
 -Video Processing: Upload video files to process and detect license plates.
 -Data Storage: Detected license plates, along with timestamps, are saved to a SQLite database and JSON files.
@@ -17,7 +17,7 @@ Features
 
 
 
-Table of Contents
+# Table of Contents
 -Prerequisites
 -Installation
 -Usage
@@ -27,7 +27,7 @@ Table of Contents
 
 
 
-Prerequisites
+# Prerequisites
 Before you begin, ensure you have met the following requirements:
 -Python 3.10 or higher
 -Git
@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 
 
 
-Installation
+# Installation
 Clone the repository:
 -git clone https://github.com/yourusername/ANPR.git
 -cd ANPR
@@ -46,25 +46,25 @@ Clone the repository:
 
 
 
-Install the required packages:
+# Install the required packages:
 -pip install -r requirements.txt
 
 
 
 
-Download the YOLOv10 weights:
+# Download the YOLOv10 weights:
 -The weights will be downloaded automatically upon running the code. Alternatively, you can manually download them from YOLOv10 Releases.
 
 
 
 
-Install the Roboflow package for dataset management:
+# Install the Roboflow package for dataset management:
 -pip install roboflow
 
 
 
 
-Usage
+# Usage
 Run the application:
 -To start the application, use the following command in your terminal:
 -streamlit run app.py
@@ -103,18 +103,18 @@ Database Structure:
 
 
 
-LicensePlates Table:
-Column Name	      Data Type	    Description
-id	              INTEGER      	Primary key (auto-increment)
-start_time	      TEXT	        Timestamp when detection starts
-end_time	        TEXT	        Timestamp when detection ends
-license_plate  	  TEXT	        Detected license plate number
+# LicensePlates Table:
+Column Name	        Data Type	      Description
+id	                 INTEGER        	Primary key (auto-increment)
+start_time	         TEXT	           Timestamp when detection starts
+end_time	           TEXT	           Timestamp when detection ends
+license_plate  	    TEXT	           Detected license plate number
 
 
 
 
 
-Acknowledgements:
+# Acknowledgements:
 -YOLOv10 for the object detection model.
 -PaddleOCR for optical character recognition.
 -OpenCV for computer vision tasks.
@@ -122,7 +122,7 @@ Acknowledgements:
 
 
 
-Screenshot
+# Screenshot
 ![ANPR2](https://github.com/user-attachments/assets/37ef4631-1992-4ae1-9a8a-c81ec97dc293)
 ![ANPR1](https://github.com/user-attachments/assets/4818e93d-bda4-4b25-9d9f-d0b71cde8be2)
 
